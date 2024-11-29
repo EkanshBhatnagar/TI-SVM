@@ -1,0 +1,36 @@
+SVM with polynomial kernel (degree=8, original MNIST dataset) 
+time to run this part: 0.204s 
+Training: 
+accuracy: 91.000% 
+Validation: 
+accuracy: 75.000% 
+Test: 
+accuracy: 68.160% 
+
+SVM with translational-invariant kernel (degree=8, original MNIST dataset) 
+time to run this part: 6.859s 
+Training: 
+accuracy: 90.000% 
+Validation: 
+accuracy: 55.000% 
+Test: 
+accuracy: 69.340% 
+
+SVM with locality kernel (degree=8, original MNIST dataset) 
+time to run this part: 173.915s 
+Training: 
+accuracy: 100.000% 
+Validation: 
+accuracy: 70.000% 
+Test: 
+accuracy: 75.270% 
+
+SVM with locality and rotational-invariant kernel (degree=8, original MNIST dataset) 
+time to run this part: 161.318s 
+Training: 
+accuracy: 100.000% 
+Validation: 
+accuracy: 75.000% 
+Test: 
+accuracy: 77.960% 
+

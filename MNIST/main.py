@@ -42,6 +42,7 @@ def main():
         eval_acc = model.evaluate(x_valid[0:val_list[idx], :], y_valid[0:val_list[idx]], svclassifier)
         test_acc = model.evaluate(x_test[0:test_list[idx], :], y_test[0:test_list[idx]], svclassifier)
         time2 = time.time()
+        print('SVM with polynomial kernel (degree=8, original MNIST dataset) \n')
         with open('result record.txt', 'a') as f:
             f.write('SVM with polynomial kernel (degree=8, original MNIST dataset) \n')
             f.write('time to run this part: {:.3f}s \n'.format(time2 - time1))
@@ -55,6 +56,7 @@ def main():
         eval_acc = model.evaluate(x_valid[0:val_list[idx], :], y_valid[0:val_list[idx]], svclassifier)
         test_acc = model.evaluate(x_test[0:test_list[idx], :], y_test[0:test_list[idx]], svclassifier)
         time2 = time.time()
+        print('SVM with translational-invariant kernel (degree=8, original MNIST dataset) \n')
         with open('result record.txt', 'a') as f:
             f.write('SVM with translational-invariant kernel (degree=8, original MNIST dataset) \n')
             f.write('time to run this part: {:.3f}s \n'.format(time2 - time1))
@@ -68,6 +70,7 @@ def main():
         eval_acc = model.evaluate(x_valid[0:val_list[idx], :], y_valid[0:val_list[idx]], svclassifier)
         test_acc = model.evaluate(x_test[0:test_list[idx], :], y_test[0:test_list[idx]], svclassifier)
         time2 = time.time()
+        print('SVM with locality kernel (degree=8, original MNIST dataset) \n')
         with open('result record.txt', 'a') as f:
             f.write('SVM with locality kernel (degree=8, original MNIST dataset) \n')
             f.write('time to run this part: {:.3f}s \n'.format(time2 - time1))
@@ -81,6 +84,7 @@ def main():
         eval_acc = model.evaluate(x_valid[0:val_list[idx], :], y_valid[0:val_list[idx]], svclassifier)
         test_acc = model.evaluate(x_test[0:test_list[idx], :], y_test[0:test_list[idx]], svclassifier)
         time2 = time.time()
+        print('SVM with locality and rotational-invariant kernel (degree=8, original MNIST dataset) \n')
         with open('result record.txt', 'a') as f:
             f.write('SVM with locality and rotational-invariant kernel (degree=8, original MNIST dataset) \n')
             f.write('time to run this part: {:.3f}s \n'.format(time2 - time1))
@@ -94,6 +98,7 @@ def main():
         eval_acc = model.evaluate(x_valid[0:val_list[idx], :], y_valid[0:val_list[idx]], svclassifier)
         test_acc = model.evaluate(x_test[0:test_list[idx], :], y_test[0:test_list[idx]], svclassifier)
         time2 = time.time()
+        print('SVM with locality and translational-invariant kernel (degree=8, original MNIST dataset) \n')
         with open('result record.txt', 'a') as f:
             f.write('SVM with locality and translational-invariant kernel (degree=8, original MNIST dataset) \n')
             f.write('time to run this part: {:.3f}s \n'.format(time2 - time1))
@@ -107,6 +112,7 @@ def main():
         eval_acc = model.evaluate(x_valid[0:val_list[idx], :], y_valid[0:val_list[idx]], svclassifier)
         test_acc = model.evaluate(x_test[0:test_list[idx], :], y_test[0:test_list[idx]], svclassifier)
         time2 = time.time()
+        print('SVM with rotational-invariant kernel (degree=8, original MNIST dataset) \n')
         with open('result record.txt', 'a') as f:
             f.write('SVM with rotational-invariant kernel (degree=8, original MNIST dataset) \n')
             f.write('time to run this part: {:.3f}s \n'.format(time2 - time1))
@@ -120,6 +126,7 @@ def main():
         eval_acc = model.evaluate(x_valid[0:val_list[idx], :], y_valid[0:val_list[idx]], svclassifier)
         test_acc = model.evaluate(x_test[0:test_list[idx], :], y_test[0:test_list[idx]], svclassifier)
         time2 = time.time()
+        print('SVM with rotational-invariant kernel (degree=8, II, original MNIST dataset) \n')
         with open('result record.txt', 'a') as f:
             f.write('SVM with rotational-invariant kernel (degree=8, II, original MNIST dataset) \n')
             f.write('time to run this part: {:.3f}s \n'.format(time2 - time1))
@@ -133,6 +140,7 @@ def main():
         eval_acc = model.evaluate(x_valid[0:val_list[idx], :], y_valid[0:val_list[idx]], svclassifier)
         test_acc = model.evaluate(x_test[0:test_list[idx], :], y_test[0:test_list[idx]], svclassifier)
         time2 = time.time()
+        print('SVM with translation & rotational-invariant kernel (degree=8, original MNIST dataset) \n')
         with open('result record.txt', 'a') as f:
             f.write('SVM with translation & rotational-invariant kernel (degree=8, original MNIST dataset) \n')
             f.write('time to run this part: {:.3f}s \n'.format(time2 - time1))
@@ -146,6 +154,7 @@ def main():
         eval_acc = model.evaluate(x_valid[0:val_list[idx], :], y_valid[0:val_list[idx]], svclassifier)
         test_acc = model.evaluate(x_test[0:test_list[idx], :], y_test[0:test_list[idx]], svclassifier)
         time2 = time.time()
+        print('SVM with translation & rotational-invariant & locality kernel (degree=8, original MNIST dataset) \n')
         with open('result record.txt', 'a') as f:
             f.write('SVM with translation & rotational-invariant & locality kernel (degree=8, original MNIST dataset) \n')
             f.write('time to run this part: {:.3f}s \n'.format(time2 - time1))
