@@ -5,12 +5,12 @@ from emnist import extract_test_samples
 
 """This script implements the functions for reading data.
 """
-
+data_home = '/scratch/user/ekanshb/scikit_learn_data'
 
 def load_data(type):
     """Load the MNIST or EMNIST dataset"""
     if type == 'MNIST':
-        mnist = fetch_openml('mnist_784')
+        mnist = fetch_openml('mnist_784',data_home=data_home)
         x = mnist.data.astype('float32').values
         y = mnist.target.astype('int64').values
         x = x / 255

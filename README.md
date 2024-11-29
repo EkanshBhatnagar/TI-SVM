@@ -15,6 +15,8 @@ Here we list our running environment:
 - matplotlib == 3.5.3
 - tqdm == 4.64.1
 
+Setup bug:
+In emnist package, they hardcode config file. Also emnist.zip needs to be manually added to ~/.cache/emnist for it to work because the hardcoded links inside the emnist package are broken.
 
 ### Dataset
 The ratio of training set and validation set is always 5:1. 
@@ -27,4 +29,6 @@ To run the experiments, simply execute the following commands,
 ```
 python main.py
 ```
+### HPRC Setup
+see myjob.slr
 

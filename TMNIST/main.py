@@ -11,12 +11,9 @@ import torch.utils.data as data_utils
 from tqdm.autonotebook import tqdm
 from sklearn.metrics import accuracy_score
 
-# train_list = [100, 300, 500, 700, 1000]
-# val_list = [20, 60, 100, 140, 200]
-# test_list = [10000, 10000, 10000, 10000, 10000]
-train_list = [100]
-val_list = [20]
-test_list = [10000]
+train_list = [100, 300, 500, 700, 1000]
+val_list = [20, 60, 100, 140, 200]
+test_list = [10000, 10000, 10000, 10000, 10000]
 
 
 def plot_instance(x, y):
@@ -58,6 +55,7 @@ def main():
         eval_acc = model.evaluate(x_valid[0:val_list[idx], :], y_valid[0:val_list[idx]], svclassifier)
         test_acc = model.evaluate(x_test[0:test_list[idx], :], y_test[0:test_list[idx]], svclassifier)
         time2 = time.time()
+        print('SVM with polynomial kernel (degree=8, T-MNIST dataset) \n')
         with open('result record.txt', 'a') as f:
             f.write('SVM with polynomial kernel (degree=8, T-MNIST dataset) \n')
             f.write('time to run this part: {:.3f}s \n'.format(time2 - time1))

@@ -1,0 +1,72 @@
+SVM with polynomial kernel (degree=8, T-MNIST dataset) 
+time to run this part: 1.916s 
+Training: 
+accuracy: 16.000% 
+Validation: 
+accuracy: 5.000% 
+Test: 
+accuracy: 10.200% 
+
+SVM with polynomial kernel (degree=8, T-MNIST dataset) 
+time to run this part: 5.150s 
+Training: 
+accuracy: 15.000% 
+Validation: 
+accuracy: 5.000% 
+Test: 
+accuracy: 9.580% 
+
+SVM with polynomial kernel (degree=8, T-MNIST dataset) 
+time to run this part: 8.950s 
+Training: 
+accuracy: 18.800% 
+Validation: 
+accuracy: 16.000% 
+Test: 
+accuracy: 14.180% 
+
+SVM with polynomial kernel (degree=8, T-MNIST dataset) 
+time to run this part: 12.646s 
+Training: 
+accuracy: 19.429% 
+Validation: 
+accuracy: 17.857% 
+Test: 
+accuracy: 14.380% 
+
+SVM with polynomial kernel (degree=8, T-MNIST dataset) 
+time to run this part: 21.955s 
+Training: 
+accuracy: 15.800% 
+Validation: 
+accuracy: 14.000% 
+Test: 
+accuracy: 12.900% 
+
+SVM with translational-invariant kernel (degree=8, T-MNIST dataset) 
+time to run this part: 25.929s 
+Training: 
+accuracy: 26.000% 
+Validation: 
+accuracy: 5.000% 
+Test: 
+accuracy: 15.200% 
+
+SVM with translational-invariant kernel (degree=8, T-MNIST dataset) 
+time to run this part: 59.223s 
+Training: 
+accuracy: 41.333% 
+Validation: 
+accuracy: 28.333% 
+Test: 
+accuracy: 29.480% 
+
+SVM with translational-invariant kernel (degree=8, T-MNIST dataset) 
+time to run this part: 89.958s 
+Training: 
+accuracy: 66.800% 
+Validation: 
+accuracy: 67.000% 
+Test: 
+accuracy: 61.550% 
+

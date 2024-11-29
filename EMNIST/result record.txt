@@ -1,0 +1,99 @@
+SVM with polynomial kernel (degree=8, EMNIST Letters dataset) 
+time to run this part: 0.454s 
+Training: 
+accuracy: 96.000% 
+Validation: 
+accuracy: 20.000% 
+Test: 
+accuracy: 36.654% 
+
+SVM with polynomial kernel (degree=8, EMNIST Letters dataset) 
+time to run this part: 1.107s 
+Training: 
+accuracy: 95.000% 
+Validation: 
+accuracy: 35.000% 
+Test: 
+accuracy: 42.736% 
+
+SVM with polynomial kernel (degree=8, EMNIST Letters dataset) 
+time to run this part: 2.974s 
+Training: 
+accuracy: 94.400% 
+Validation: 
+accuracy: 55.000% 
+Test: 
+accuracy: 56.375% 
+
+SVM with translational-invariant kernel (degree=8, EMNIST Letters dataset) 
+time to run this part: 5.545s 
+Training: 
+accuracy: 96.000% 
+Validation: 
+accuracy: 40.000% 
+Test: 
+accuracy: 39.938% 
+
+SVM with translational-invariant kernel (degree=8, EMNIST Letters dataset) 
+time to run this part: 9.424s 
+Training: 
+accuracy: 95.500% 
+Validation: 
+accuracy: 52.500% 
+Test: 
+accuracy: 48.111% 
+
+SVM with translational-invariant kernel (degree=8, EMNIST Letters dataset) 
+time to run this part: 22.997s 
+Training: 
+accuracy: 94.400% 
+Validation: 
+accuracy: 61.000% 
+Test: 
+accuracy: 63.519% 
+
+SVM with locality kernel (degree=8, EMNIST Letters dataset) 
+time to run this part: 21.670s 
+Training: 
+accuracy: 100.000% 
+Validation: 
+accuracy: 30.000% 
+Test: 
+accuracy: 37.010% 
+
+SVM with locality kernel (degree=8, EMNIST Letters dataset) 
+time to run this part: 34.716s 
+Training: 
+accuracy: 100.000% 
+Validation: 
+accuracy: 35.000% 
+Test: 
+accuracy: 45.082% 
+
+SVM with locality kernel (degree=8, EMNIST Letters dataset) 
+time to run this part: 79.295s 
+Training: 
+accuracy: 100.000% 
+Validation: 
+accuracy: 58.000% 
+Test: 
+accuracy: 58.048% 
+
+SVM with locality and rotational-invariant kernel (degree=8, EMNIST Letters dataset) 
+time to run this part: 252.570s 
+Training: 
+accuracy: 100.000% 
+Validation: 
+accuracy: 30.000% 
+Test: 
+accuracy: 38.394% 
+
+SVM with locality and rotational-invariant kernel (degree=8, EMNIST Letters dataset) 
+time to run this part: 452.110s 
+Training: 
+accuracy: 100.000% 
+Validation: 
+accuracy: 35.000% 
+Test: 
+accuracy: 47.288% 
+

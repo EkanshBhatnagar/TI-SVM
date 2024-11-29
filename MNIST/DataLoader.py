@@ -3,6 +3,7 @@ from sklearn.model_selection import train_test_split
 from emnist import extract_training_samples
 from emnist import extract_test_samples
 
+data_home = '/scratch/user/ekanshb/scikit_learn_data'
 """This script implements the functions for reading data.
 """
 
@@ -10,7 +11,7 @@ from emnist import extract_test_samples
 def load_data(type):
     """Load the MNIST or EMNIST dataset."""
     if type == 'MNIST':
-        mnist = fetch_openml('mnist_784')
+        mnist = fetch_openml('mnist_784',data_home=data_home)
         x = mnist.data.astype('float32').values
         y = mnist.target.astype('int64').values
         x = x / 255

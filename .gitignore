@@ -1,1 +1,4 @@
 .venv/
+MNIST/__pycache__/
+TMNIST/__pycache__/
+EMNIST/__pycache__/

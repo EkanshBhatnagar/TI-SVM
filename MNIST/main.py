@@ -9,13 +9,9 @@ import torch.utils.data as data_utils
 from tqdm.autonotebook import tqdm
 from sklearn.metrics import accuracy_score
 
-# train_list = [100, 200, 500]
-# val_list = [20, 40, 100]
-# test_list = [10000, 10000, 10000]
-train_list = [100]
-val_list = [20]
-test_list = [10000]
-
+train_list = [100, 200, 500]
+val_list = [20, 40, 100]
+test_list = [10000, 10000, 10000]
 
 def result_record(file, train_acc, valid_acc, test_acc, svclassifier):
     file.write('Training: \n')
